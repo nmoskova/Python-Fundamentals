@@ -1,0 +1,18 @@
+some_str = input()
+
+digits = ""
+letters = ""
+others = ""
+
+for ch in some_str:
+
+    if ch.isdigit():
+        digits += ch
+    elif ch.isalpha():
+        letters += ch
+    else:
+        others += ch
+
+print(digits)
+print(letters)
+print(others)
